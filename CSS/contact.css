@@ -1,0 +1,19 @@
+body {
+    background-color: 7A0202;
+}
+
+div {
+    width: 1500px;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    position: relative;
+
+}
+
+label {
+    color: white;
+    font-weight: bold;
+}

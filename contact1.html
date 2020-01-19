@@ -1,0 +1,75 @@
+<html>
+
+<head>
+	<title>contact</title>
+	<link rel="icon href ="="image">
+	<link rel="stylesheet" href="CSS/final_check_point.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="CSS/HOME.css">
+	<link rel="stylesheet" href="CSS/contact.css">
+
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg ">
+		<a class="navbar-brand" href="index.html">Home</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+			aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+				<a class="nav-item nav-link" href="courses1.html">Courses</a>
+				<a class="nav-item nav-link" href="contact1.html">Contact</a>
+
+			</div>
+		</div>
+	</nav>
+	<img src="RES/GOMYCODE.jpeg" class="background"><br>
+	<center>
+		<h1>CONTACT</h1>
+	</center>
+	<center>
+		<form id="contactForm">
+			<div class="form-group col-md-3">
+				<label for="name">Fullname</label>
+				<input type="text" class="form-control" id="name">
+			</div>
+
+			<div class="form-group col-md-3">
+				<label for="track">Track</label>
+				<select id="track" class="form-control">
+					<option selected>Choose...</option>
+					<option value="AI">AI</option>
+					<option value="Game">Game dev</option>
+					<option value="Web">Web dev</option>
+				</select>
+			</div>
+			<div class="form-group col-md-3">
+				<label for="email">Email address</label>
+				<input type="text" class="form-control" id="email">
+				<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+					else.</small>
+			</div>
+			<div class="form-group col-md-3">
+				<label for="phone">Phone number</label>
+				<input type="text" class="form-control" id="phone">
+			</div>
+			<button type="submit" class="btn btn-primary">Submit</button>
+	</center>
+	</form>
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+	<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-analytics.js"></script>
+	<script src="js/contact.js"></script>
+</body>
+</script>
+
+</html>
